@@ -12,10 +12,12 @@
 <body> 
    
     @include('partials._header')
+    @include('partials._jumbotron')
+
 
     <main>
         @yield('main_content')
-        
+
     </main>
 
 </body>

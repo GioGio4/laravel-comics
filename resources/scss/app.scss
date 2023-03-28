@@ -1,9 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 
 .jumbotron {
-    min-height: 100vh;
+    height: 25vh;
+    background-image: url(../img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img {
-    max-height: 150px;
+    max-width: 100%;
+}
+
+.comics-container{
+    background-color: #1c1c1c;
 }
