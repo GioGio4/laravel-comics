@@ -23,7 +23,8 @@ Route::get('characters', function () {
 })->name('characters');
 
 Route::get('comics', function () {
-    return view('comics');
+    $comicsList = config('comics');
+    return view('comics', compact('comicsList'));
 })->name('comics');
 
 Route::get('movies', function () {

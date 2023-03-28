@@ -13,4 +13,11 @@ img {
 
 .comics-container{
     background-color: #1c1c1c;
+    position: relative;
+}
+
+.badge-comics-new{
+    position: absolute;
+    top: -14px;
+    left: 400px;
 }
